@@ -1,0 +1,10 @@
+<!-- <p>items works!</p> -->
+
+<h1>{{ items_title }}</h1>
+
+<div *ngFor="let item of items;">
+    <div>
+        <span>{{ item.id }}</span>
+        <span>{{ item.desc }}</span>
+    </div>
+</div>
